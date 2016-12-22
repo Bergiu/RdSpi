@@ -94,7 +94,7 @@ int main(int argc, char **argv)
 	stdio_mode(STDIO_MODE_RAW);
 
 	rpi_pin_init(RPI_REV2);
-	rpi_pin_export(SI_RESET, RPI_INPUT);
+	//rpi_pin_export(SI_RESET, RPI_INPUT);
 	pi2c_open(PI2C_BUS);
 	pi2c_select(PI2C_BUS, SI4703_ADDR);
 
